@@ -1,0 +1,80 @@
+*:root{
+
+    --background-color:rgb(0, 0, 0);
+    --anuwal-background-color:#8B5DFF;
+    --hover-background:#4B4376;
+    --text-color:white;
+    --color:red;
+    --bigestfont-size:2rem;
+    --nomal-fontsize:1.30rem;
+    --button-background: linear-gradient(to right,#0fd850 0%, #f9f047 100%);
+    --fontfamily:arial;
+    --body-backgroundcolor: black;
+
+    
+
+}
+body{
+    background-color: var(--body-backgroundcolor);
+}
+
+.tex{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 10rem 7rem;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    align-items: center;
+    
+}
+img{
+  padding-left: 2rem;
+}
+img:hover{
+    position: relative;
+    top: -4px;
+}
+
+.great{
+
+    padding-right: 0;
+    color: #0fd850;
+}
+
+h1.about{
+    font-size: var(--bigestfont-size);
+    color: var(--color);
+} 
+
+span{
+    color: var(--color);
+}
+button{
+    width: 10rem;
+    height: 2em;
+    margin-top: 2em;
+    border-radius: 2em;
+    font-family:inherit;
+    font-size: 15px;
+    box-shadow: 6px 6px 12px rgb(173, 89, 89);
+    border: solid 1px red;
+    transition: 1s ease-in-out;
+ 
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #0fd850;
+    position: relative;
+    left: -4px;
+}
+button a{
+    text-decoration: none;
+    color: black;
+
+}

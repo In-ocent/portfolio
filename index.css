@@ -1,0 +1,84 @@
+
+.inno{
+  display: flex;
+  padding: 11rem 2rem 3rem 2rem;
+  color: white;
+  background-color: black;
+  
+
+}
+
+.cent{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.cent:hover{
+    position: relative;
+    top: -4px;
+}
+
+.about{
+text-align: center;
+background-color: rgb(127, 4, 4);
+color: white;
+font-size: xx-large;
+margin-bottom: 0;
+
+}
+
+
+.hh{
+    background-color: black;
+    margin-top: 0;
+    display: flex;
+    color: white;
+    justify-content: center;
+    line-height: 2;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
+}
+
+.yy{
+    margin-top:3em;
+    margin-right: 15px;
+}
+
+.yy:hover{
+    position: relative;
+    top: -4px;
+}
+
+button.ojo{
+    width:150px;
+    height: 30px;
+    margin-top: 15px;
+    background-color:rgb(30, 28, 28);
+    color: whitesmoke;
+    border: solid 1px red ;
+    border-radius: 30px;
+    transition: 0.4s ease-in;
+}
+button.ojo:hover{
+    background-color: rgb(255, 8, 8);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.name{
+    color: rgb(255, 0, 0);
+}
+
+i.bx {
+    width: 40px;
+    height: 30px;
+    font-size: xx-large;
+    margin-top: 30px;
+}
+
+i.bx:hover{
+    color: red;
+    cursor: pointer;
+}
