@@ -78,3 +78,11 @@ button a{
     color: black;
 
 }
+
+.bx{
+    font-size: x-large;
+    color: white;
+}
+.bx:hover{
+    color: red;
+}
