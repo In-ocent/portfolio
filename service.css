@@ -15,11 +15,11 @@
     background-color: black;
     flex-wrap: wrap;
 }
-.btm{
+
+.btm{ 
     justify-items: center;
     align-items: center;
     padding:4rem 7rem;
-    padding-bottom: 10rem;
     background-color: black;
     color: white;
     justify-content: space-between;
@@ -76,4 +76,47 @@ button a{
 }
 button a:hover{
     color: black;
+}
+
+#footer{
+    background-color: black;
+    justify-items: center;
+    color: aliceblue;
+    padding-bottom: 7rem;
+    position: relative;
+    
+}
+
+.mmm{
+    font-size: xx-large;
+    
+    position: relative;
+}
+
+.bx:hover{
+    color: red;
+    
+}
+#footer{
+    background-color: black;
+    justify-items: center;
+    color: aliceblue;
+    padding-bottom: 7rem;
+    
+}
+.follow{
+    color: red;
+}
+.mmm{
+    font-size: xx-large;
+}
+
+.bx:hover{
+    color: red;
+}
+
+@media(max-width: 500px){
+    .bmg{
+        padding-top: 3rem;
+    }
 }

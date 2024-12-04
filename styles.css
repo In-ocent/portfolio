@@ -13,12 +13,8 @@ body {
 nav{
     background-color: black;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    text-align: center;
-    font-size: large;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    align-items: center;
     position: fixed;
     width: 100%;
     height: 4rem;
@@ -26,7 +22,6 @@ nav{
 } 
 
 .logo{
-    font-size: 900;
     font-size: x-large;
     color: #ff0040;
 }
@@ -35,7 +30,7 @@ ul{
     display: flex;
     gap: 30px;
     list-style: none;
-    margin-top: 10px;
+    font-size: large;
 }
 li a{
  
@@ -61,5 +56,26 @@ ul a::after {
 li.active a:hover::after{
      width: 100%;
      background-color: #ff0040;
+}
+.toggle-button{
+    display: none;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.toggle-button span{
+    background-color: white;
+    height: 0.3rem;
+    width: 2.5rem;
+    display: block;
+}
+
+@media (max-width: 500px){
+    ul{
+        display: none;
+    }
+    .toggle-button{
+        display: flex;
+    }
 }
 

@@ -18,7 +18,7 @@
     position: relative;
     top: -4px;
 }
-
+ 
 .about{
 text-align: center;
 background-color: rgb(127, 4, 4);
@@ -81,4 +81,21 @@ i.bx {
 i.bx:hover{
     color: red;
     cursor: pointer;
+}
+#footer{
+    background-color: black;
+    justify-items: center;
+    color: aliceblue;
+    padding-bottom: 7rem;
+    
+}
+.follow{
+    color: red;
+}
+.mmm{
+    font-size: xx-large;
+}
+
+.bx:hover{
+    color: red;
 }
